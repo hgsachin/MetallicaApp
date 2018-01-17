@@ -93950,7 +93950,7 @@ var Home = function (_Component) {
             if (userAuthed) {
                 return _react2.default.createElement(_app2.default, null);
             } else {
-                return _react2.default.createElement(_app2.default, null);
+                return _react2.default.createElement(_login2.default, null);
             }
         }
     }]);
