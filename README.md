@@ -1,0 +1,2 @@
+# MetallicaApp
+Main Metallica application
