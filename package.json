@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register test --recursive",
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node src/server.js",
     "webpack": "./node_modules/.bin/webpack"
   },
   "author": "Sachin Harnahalli",
