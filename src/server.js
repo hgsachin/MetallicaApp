@@ -29,11 +29,10 @@ app.get('/auth/google/redirect', passport.authenticate('google'), (req, res) => 
 });
 
 const port = process.env.PORT || 8080;
-const env = process.env.NODE_ENV || 'production';
 
 server.listen(port, (err) => {
     if (err) {
         return console.error(err);
     }
-    console.info(`Server running on http://localhost:${port} [${env}]`);
+    console.info(`Server running on Port : ${port}`);
 });
